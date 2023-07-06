@@ -27,3 +27,75 @@
 .item:hover{
   color: cadetblue;
 }
+.banner-img{
+  width: 300px;
+}
+.banner-container{
+  display: flex;
+  justify-content: space-around;
+  height: 100vh;
+  align-items: center;
+  /*border: 2px solid red;*/
+  color: aqua;
+  background-image: url("./Images/background.png"),
+  linear-gradient(90deg, rgb(8, 8, 8),rgb(53, 53, 53));
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.title{
+font-size: 60px;
+font-weight: bolder;
+}
+.deta{
+  font-size: medium;
+  color: burlywood;
+  margin-top: 15px;
+  margin-bottom: 15px;
+
+}
+.butta{
+  padding: 10px 17px;
+  background-color: rgb(190, 3, 41);
+  border: none;
+  color: white;
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction:row-reverse;
+    padding: 10px;
+}
+.about-title{
+    text-align: center;
+    padding-top:20px;
+}
+.box{
+    width: 230px;
+    height: 280px;
+    box-shadow: 4px 4px 15px gray;
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+    color: white;
+}
+.icon{
+    width: 70px;
+}
+.box-btn{
+    background-color: gray;
+    margin-top:10px;
+}
+.box-title{
+    padding: 10px;
+
+}
+.box-description{
+    padding: 5px;
+}
+.service-container{
+    display: flex;
+    justify-content:space-around;
+    padding: 20px;
+}
